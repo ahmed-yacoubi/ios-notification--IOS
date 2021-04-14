@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2491237773B761A5200E6E39 /* Pods_greetingCardv2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF577EA57D2BE08C331438 /* Pods_greetingCardv2Tests.framework */; };
+		605D42302622281F004DC046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D422F2622281F004DC046 /* AppDelegate.swift */; };
+		605D42322622281F004DC046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D42312622281F004DC046 /* SceneDelegate.swift */; };
+		605D42342622281F004DC046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D42332622281F004DC046 /* ViewController.swift */; };
+		605D42372622281F004DC046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605D42352622281F004DC046 /* Main.storyboard */; };
+		605D423926222821004DC046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605D423826222821004DC046 /* Assets.xcassets */; };
+		605D423C26222821004DC046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605D423A26222821004DC046 /* LaunchScreen.storyboard */; };
+		605D424726222821004DC046 /* greetingCardv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D424626222821004DC046 /* greetingCardv2Tests.swift */; };
+		605D425226222822004DC046 /* greetingCardv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D425126222822004DC046 /* greetingCardv2UITests.swift */; };
+		605D426026222BA0004DC046 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 605D425F26222BA0004DC046 /* GoogleService-Info.plist */; };
+		80CEF571E454558B320883AB /* Pods_greetingCardv2_greetingCardv2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A960EBE92ABEAB45A2F5896 /* Pods_greetingCardv2_greetingCardv2UITests.framework */; };
+		D59C2363C8CA4F76C4E30725 /* Pods_greetingCardv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD52B8F66C71DE42525F7172 /* Pods_greetingCardv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605D424326222821004DC046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605D42242622281E004DC046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605D422B2622281E004DC046;
+			remoteInfo = greetingCardv2;
+		};
+		605D424E26222822004DC046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605D42242622281E004DC046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605D422B2622281E004DC046;
+			remoteInfo = greetingCardv2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0812A2E9F05BEBCC243FBB48 /* Pods-greetingCardv2-greetingCardv2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greetingCardv2-greetingCardv2UITests.release.xcconfig"; path = "Target Support Files/Pods-greetingCardv2-greetingCardv2UITests/Pods-greetingCardv2-greetingCardv2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2ADBD7DB536CDC6EBF9580EB /* Pods-greetingCardv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greetingCardv2.release.xcconfig"; path = "Target Support Files/Pods-greetingCardv2/Pods-greetingCardv2.release.xcconfig"; sourceTree = "<group>"; };
+		4547F56A3FA1262F0CF42BF5 /* Pods-greetingCardv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greetingCardv2Tests.release.xcconfig"; path = "Target Support Files/Pods-greetingCardv2Tests/Pods-greetingCardv2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A960EBE92ABEAB45A2F5896 /* Pods_greetingCardv2_greetingCardv2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greetingCardv2_greetingCardv2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605D422C2622281E004DC046 /* greetingCardv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greetingCardv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605D422F2622281F004DC046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		605D42312622281F004DC046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		605D42332622281F004DC046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		605D42362622281F004DC046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605D423826222821004DC046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605D423B26222821004DC046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605D423D26222821004DC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605D424226222821004DC046 /* greetingCardv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greetingCardv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605D424626222821004DC046 /* greetingCardv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greetingCardv2Tests.swift; sourceTree = "<group>"; };
+		605D424826222821004DC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605D424D26222821004DC046 /* greetingCardv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greetingCardv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605D425126222822004DC046 /* greetingCardv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greetingCardv2UITests.swift; sourceTree = "<group>"; };
+		605D425326222822004DC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605D425F26222BA0004DC046 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60684C4C26222CB1002D74A4 /* greetingCardv2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = greetingCardv2.entitlements; sourceTree = "<group>"; };
+		60A84507D394F1868CA93043 /* Pods-greetingCardv2-greetingCardv2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greetingCardv2-greetingCardv2UITests.debug.xcconfig"; path = "Target Support Files/Pods-greetingCardv2-greetingCardv2UITests/Pods-greetingCardv2-greetingCardv2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6DACE8B5FBCF61C8FDDDEE /* Pods-greetingCardv2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greetingCardv2Tests.debug.xcconfig"; path = "Target Support Files/Pods-greetingCardv2Tests/Pods-greetingCardv2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CF577EA57D2BE08C331438 /* Pods_greetingCardv2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greetingCardv2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C25769A7E3AB1C0552C07 /* Pods-greetingCardv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greetingCardv2.debug.xcconfig"; path = "Target Support Files/Pods-greetingCardv2/Pods-greetingCardv2.debug.xcconfig"; sourceTree = "<group>"; };
+		FD52B8F66C71DE42525F7172 /* Pods_greetingCardv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greetingCardv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605D42292622281E004DC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59C2363C8CA4F76C4E30725 /* Pods_greetingCardv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605D423F26222821004DC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2491237773B761A5200E6E39 /* Pods_greetingCardv2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605D424A26222821004DC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CEF571E454558B320883AB /* Pods_greetingCardv2_greetingCardv2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364F23D43CF20191D257A782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C97C25769A7E3AB1C0552C07 /* Pods-greetingCardv2.debug.xcconfig */,
+				2ADBD7DB536CDC6EBF9580EB /* Pods-greetingCardv2.release.xcconfig */,
+				60A84507D394F1868CA93043 /* Pods-greetingCardv2-greetingCardv2UITests.debug.xcconfig */,
+				0812A2E9F05BEBCC243FBB48 /* Pods-greetingCardv2-greetingCardv2UITests.release.xcconfig */,
+				9D6DACE8B5FBCF61C8FDDDEE /* Pods-greetingCardv2Tests.debug.xcconfig */,
+				4547F56A3FA1262F0CF42BF5 /* Pods-greetingCardv2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		605D42232622281E004DC046 = {
+			isa = PBXGroup;
+			children = (
+				605D422E2622281E004DC046 /* greetingCardv2 */,
+				605D424526222821004DC046 /* greetingCardv2Tests */,
+				605D425026222822004DC046 /* greetingCardv2UITests */,
+				605D422D2622281E004DC046 /* Products */,
+				364F23D43CF20191D257A782 /* Pods */,
+				A9BF5C40516621D446393379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		605D422D2622281E004DC046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605D422C2622281E004DC046 /* greetingCardv2.app */,
+				605D424226222821004DC046 /* greetingCardv2Tests.xctest */,
+				605D424D26222821004DC046 /* greetingCardv2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605D422E2622281E004DC046 /* greetingCardv2 */ = {
+			isa = PBXGroup;
+			children = (
+				60684C4C26222CB1002D74A4 /* greetingCardv2.entitlements */,
+				605D425F26222BA0004DC046 /* GoogleService-Info.plist */,
+				605D422F2622281F004DC046 /* AppDelegate.swift */,
+				605D42312622281F004DC046 /* SceneDelegate.swift */,
+				605D42332622281F004DC046 /* ViewController.swift */,
+				605D42352622281F004DC046 /* Main.storyboard */,
+				605D423826222821004DC046 /* Assets.xcassets */,
+				605D423A26222821004DC046 /* LaunchScreen.storyboard */,
+				605D423D26222821004DC046 /* Info.plist */,
+			);
+			path = greetingCardv2;
+			sourceTree = "<group>";
+		};
+		605D424526222821004DC046 /* greetingCardv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				605D424626222821004DC046 /* greetingCardv2Tests.swift */,
+				605D424826222821004DC046 /* Info.plist */,
+			);
+			path = greetingCardv2Tests;
+			sourceTree = "<group>";
+		};
+		605D425026222822004DC046 /* greetingCardv2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				605D425126222822004DC046 /* greetingCardv2UITests.swift */,
+				605D425326222822004DC046 /* Info.plist */,
+			);
+			path = greetingCardv2UITests;
+			sourceTree = "<group>";
+		};
+		A9BF5C40516621D446393379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD52B8F66C71DE42525F7172 /* Pods_greetingCardv2.framework */,
+				4A960EBE92ABEAB45A2F5896 /* Pods_greetingCardv2_greetingCardv2UITests.framework */,
+				B0CF577EA57D2BE08C331438 /* Pods_greetingCardv2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605D422B2622281E004DC046 /* greetingCardv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605D425626222822004DC046 /* Build configuration list for PBXNativeTarget "greetingCardv2" */;
+			buildPhases = (
+				7B4761F54E6949DE73558BED /* [CP] Check Pods Manifest.lock */,
+				605D42282622281E004DC046 /* Sources */,
+				605D42292622281E004DC046 /* Frameworks */,
+				605D422A2622281E004DC046 /* Resources */,
+				1F8A090E65DE528CBA0E6FBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = greetingCardv2;
+			productName = greetingCardv2;
+			productReference = 605D422C2622281E004DC046 /* greetingCardv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605D424126222821004DC046 /* greetingCardv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605D425926222822004DC046 /* Build configuration list for PBXNativeTarget "greetingCardv2Tests" */;
+			buildPhases = (
+				E2B91EC191CFFF4364897FD9 /* [CP] Check Pods Manifest.lock */,
+				605D423E26222821004DC046 /* Sources */,
+				605D423F26222821004DC046 /* Frameworks */,
+				605D424026222821004DC046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605D424426222821004DC046 /* PBXTargetDependency */,
+			);
+			name = greetingCardv2Tests;
+			productName = greetingCardv2Tests;
+			productReference = 605D424226222821004DC046 /* greetingCardv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605D424C26222821004DC046 /* greetingCardv2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605D425C26222822004DC046 /* Build configuration list for PBXNativeTarget "greetingCardv2UITests" */;
+			buildPhases = (
+				0414E7730400E5BA4B1B13D7 /* [CP] Check Pods Manifest.lock */,
+				605D424926222821004DC046 /* Sources */,
+				605D424A26222821004DC046 /* Frameworks */,
+				605D424B26222821004DC046 /* Resources */,
+				560CD2CDE517AE0C6BCFD808 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605D424F26222822004DC046 /* PBXTargetDependency */,
+			);
+			name = greetingCardv2UITests;
+			productName = greetingCardv2UITests;
+			productReference = 605D424D26222821004DC046 /* greetingCardv2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605D42242622281E004DC046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					605D422B2622281E004DC046 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					605D424126222821004DC046 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 605D422B2622281E004DC046;
+					};
+					605D424C26222821004DC046 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 605D422B2622281E004DC046;
+					};
+				};
+			};
+			buildConfigurationList = 605D42272622281E004DC046 /* Build configuration list for PBXProject "greetingCardv2" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605D42232622281E004DC046;
+			productRefGroup = 605D422D2622281E004DC046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605D422B2622281E004DC046 /* greetingCardv2 */,
+				605D424126222821004DC046 /* greetingCardv2Tests */,
+				605D424C26222821004DC046 /* greetingCardv2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605D422A2622281E004DC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D423C26222821004DC046 /* LaunchScreen.storyboard in Resources */,
+				605D426026222BA0004DC046 /* GoogleService-Info.plist in Resources */,
+				605D423926222821004DC046 /* Assets.xcassets in Resources */,
+				605D42372622281F004DC046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605D424026222821004DC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605D424B26222821004DC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0414E7730400E5BA4B1B13D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-greetingCardv2-greetingCardv2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F8A090E65DE528CBA0E6FBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greetingCardv2/Pods-greetingCardv2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greetingCardv2/Pods-greetingCardv2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greetingCardv2/Pods-greetingCardv2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560CD2CDE517AE0C6BCFD808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greetingCardv2-greetingCardv2UITests/Pods-greetingCardv2-greetingCardv2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greetingCardv2-greetingCardv2UITests/Pods-greetingCardv2-greetingCardv2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greetingCardv2-greetingCardv2UITests/Pods-greetingCardv2-greetingCardv2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4761F54E6949DE73558BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-greetingCardv2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B91EC191CFFF4364897FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-greetingCardv2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605D42282622281E004DC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D42342622281F004DC046 /* ViewController.swift in Sources */,
+				605D42302622281F004DC046 /* AppDelegate.swift in Sources */,
+				605D42322622281F004DC046 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605D423E26222821004DC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D424726222821004DC046 /* greetingCardv2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605D424926222821004DC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D425226222822004DC046 /* greetingCardv2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605D424426222821004DC046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605D422B2622281E004DC046 /* greetingCardv2 */;
+			targetProxy = 605D424326222821004DC046 /* PBXContainerItemProxy */;
+		};
+		605D424F26222822004DC046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605D422B2622281E004DC046 /* greetingCardv2 */;
+			targetProxy = 605D424E26222822004DC046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605D42352622281F004DC046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605D42362622281F004DC046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605D423A26222821004DC046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605D423B26222821004DC046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605D425426222822004DC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7N5NV2Q3B7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		605D425526222822004DC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7N5NV2Q3B7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605D425726222822004DC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97C25769A7E3AB1C0552C07 /* Pods-greetingCardv2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = greetingCardv2/greetingCardv2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = greetingCardv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.e.greetingCardv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605D425826222822004DC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADBD7DB536CDC6EBF9580EB /* Pods-greetingCardv2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = greetingCardv2/greetingCardv2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = greetingCardv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.e.greetingCardv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		605D425A26222822004DC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6DACE8B5FBCF61C8FDDDEE /* Pods-greetingCardv2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = greetingCardv2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.e.greetingCardv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greetingCardv2.app/greetingCardv2";
+			};
+			name = Debug;
+		};
+		605D425B26222822004DC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4547F56A3FA1262F0CF42BF5 /* Pods-greetingCardv2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = greetingCardv2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.e.greetingCardv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greetingCardv2.app/greetingCardv2";
+			};
+			name = Release;
+		};
+		605D425D26222822004DC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A84507D394F1868CA93043 /* Pods-greetingCardv2-greetingCardv2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = greetingCardv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.e.greetingCardv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = greetingCardv2;
+			};
+			name = Debug;
+		};
+		605D425E26222822004DC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0812A2E9F05BEBCC243FBB48 /* Pods-greetingCardv2-greetingCardv2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = greetingCardv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.e.greetingCardv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = greetingCardv2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605D42272622281E004DC046 /* Build configuration list for PBXProject "greetingCardv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605D425426222822004DC046 /* Debug */,
+				605D425526222822004DC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605D425626222822004DC046 /* Build configuration list for PBXNativeTarget "greetingCardv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605D425726222822004DC046 /* Debug */,
+				605D425826222822004DC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605D425926222822004DC046 /* Build configuration list for PBXNativeTarget "greetingCardv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605D425A26222822004DC046 /* Debug */,
+				605D425B26222822004DC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605D425C26222822004DC046 /* Build configuration list for PBXNativeTarget "greetingCardv2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605D425D26222822004DC046 /* Debug */,
+				605D425E26222822004DC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605D42242622281E004DC046 /* Project object */;
+}

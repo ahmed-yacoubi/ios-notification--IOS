@@ -1,0 +1,6 @@
+framework module Pods_greetingCardv2Tests {
+  umbrella header "Pods-greetingCardv2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
